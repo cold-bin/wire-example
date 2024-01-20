@@ -40,14 +40,14 @@ package di
 
 import (
 	"github.com/google/wire"
-	"school-seckill-system/dal"
-	"school-seckill-system/handler"
-	"school-seckill-system/provider/kmq"
-	"school-seckill-system/provider/mysql"
-	"school-seckill-system/provider/redis"
-	"school-seckill-system/provider/zap"
-	"school-seckill-system/router"
-	"school-seckill-system/service"
+	"wire-example/dal"
+	"wire-example/handler"
+	"wire-example/provider/kmq"
+	"wire-example/provider/mysql"
+	"wire-example/provider/redis"
+	"wire-example/provider/zap"
+	"wire-example/router"
+	"wire-example/service"
 )
 
 func BuildItemRouter() *router.ItemRouter {
